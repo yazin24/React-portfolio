@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./irisCv.pdf";
+import CV from "./John_Iris.pdf";
 import {motion} from 'framer-motion';
 
 const Home = () => {
