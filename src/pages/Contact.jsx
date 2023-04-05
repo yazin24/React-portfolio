@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="hidden md:block">By Messenger</h3>
-              <h4 className="hidden md:block">Eris Coniendo</h4>
+              <h4 className="hidden md:block">John Iris Coniendo</h4>
               <br />
               <a href="https://m.me/johniris.coniendo" className="hidden md:block">Send a message</a>
             </div>
