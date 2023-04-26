@@ -31,7 +31,7 @@ const Aboutme = () => {
         <br />
         <h2 className="title text-red-500 text-2xl">Skills:</h2>
         <p>
-          HTML | CSS | BOOTSTRAP | TAILWIND | JAVASCRIPT | PHP | MYSQL | SQL |
+          HTML | CSS | BOOTSTRAP | TAILWIND | JAVASCRIPT | PHP | LARAVEL | MYSQL | SQL |
           REACT | REACT-NATIVE | NODE JS | EXPRESS JS | MONGODB
         </p>
         <br />
