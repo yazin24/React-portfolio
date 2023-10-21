@@ -169,10 +169,9 @@ nav li:hover {
   background-color: transparent;
   width: 18rem;
   height: 30rem;
-  perspective: 1000px;
 }
 .card:hover{
-  box-shadow: 5px 5px 5px  rgb(225, 74, 74);
+  box-shadow: 5px 5px 5px  rgb(9, 164, 47);
   transition: 500ms;
 }
 
@@ -196,7 +195,7 @@ nav li:hover {
 }
 
 .card-front {
-  background-color: #bbb;
+  background-color: black;
   color: black;
 }
 
