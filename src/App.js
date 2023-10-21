@@ -16,12 +16,12 @@ function App() {
   return (
     <>
    <BrowserRouter>
-    <div className='stars z-10'>
+    {/* <div className='stars z-10'>
     <div className='stars2 z-10'>
 			<div className='stars3 z-10'>
       </div>
       </div>
-      </div>
+      </div> */}
        
       <AnimatedRoutes/>
       </BrowserRouter>

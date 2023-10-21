@@ -26,12 +26,12 @@ const Contact = () => {
     <motion.div initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}>
-      <h1 className="text-center text-white text-lg md:text-2xl mt-5 md:mt-24">Get in touch by Contacting Me</h1>
+      <h1 className="text-center text-green-700 text-lg md:text-2xl mt-5 md:mt-24">Get in touch by Contacting Me</h1>
       <div className="contact-container text-white">
         <br />
         <br />
         <div className="contact-option text-xs flex flex-row  justify-center gap-5 md:mb-12">
-          <article className="options p-3 flex flex-row gap-2">
+          <article className="text-green-700 options p-3 flex flex-row gap-2">
             <div>
               <FaEnvelope className="m-1 text-xl" />
             </div>
@@ -41,7 +41,7 @@ const Contact = () => {
               <br />
             </div>
           </article>
-          <article className="options p-3 flex flex-row gap-2">
+          <article className=" text-green-700 options p-3 flex flex-row gap-2">
             <div>
               <FaFacebookMessenger className="m-1 text-xl" />
             </div>
@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
           </article>
 
-          <article className="options p-3 flex flex-row gap-2">
+          <article className="text-green-700 options p-3 flex flex-row gap-2">
             <div>
               <FaPhoneAlt className="m-1 text-xl" />
             </div>
@@ -72,14 +72,14 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Full Name"
-              className="bg-slate-700"
+              className="border border-green-700 transparent bg-black text-green-700 text-xs"
               required
             />
             <input
               type="text"
               name="email"
               placeholder="Email Address"
-              className="bg-slate-700"
+              className="border border-green-700 transparent bg-black text-green-700 text-xs" 
               required
             />
             <textarea
@@ -87,10 +87,10 @@ const Contact = () => {
               rows="9"
               column="10"
               placeholder="Your Message"
-              className="bg-slate-700"
+              className="border border-green-700 transparent bg-black text-green-700 text-xs"
               required
             ></textarea>
-            <button type="submit" className="cv-button bg-red-500 p-2 rounded-lg">
+            <button type="submit" className="border border-green-700 p-2 rounded-sm text-xs text-green-700 hover:text-gray-200 hover:bg-green-700">
               Send Message
             </button>
           </form>

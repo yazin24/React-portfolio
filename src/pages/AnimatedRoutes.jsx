@@ -18,7 +18,7 @@ const AnimatedRoutes = () => {
   return (
     <div>
         <nav>
-      <ul className='nav-bar flex flex-row justify-center font-[0.2] font-bold gap-14 relative p-10 bg-none text-white text-lg md:text-2xl md:gap-44'>
+      <ul className='nav-bar flex flex-row justify-center font-[0.2] font-bold gap-14 relative p-10 bg-none text-green-600 text-lg md:text-2xl md:gap-44'>
       
       
 

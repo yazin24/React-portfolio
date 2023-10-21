@@ -12,30 +12,6 @@ const Projects = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        <div className="card">
-          <div className="card-inner">
-            <div className="card-front">
-              <div className="video">
-                <video autoPlay muted>
-                  <source src={CovidTracker} type="video/mp4" />
-                </video>
-              </div>
-              <h2>Covid-19 Tracker</h2>
-              <br />
-              <h4>
-                This web app can track covid-19 infected people around the
-                world. You can monitor covid-19 anytime anywhere by using this
-                app.
-              </h4>
-              <br />
-              <h4>Built using: REACT, API</h4>
-              <br />
-              <a href="https://github.com/yazin24/Covid19-tracker.git">
-                See code here
-              </a>
-            </div>
-          </div>
-        </div>
 
         <div className="card">
           <div className="card-inner">
@@ -80,6 +56,31 @@ const Projects = () => {
               <h4>Built using: HTML, CSS, JAVASCRIPT, PHP</h4>
               <br />
               <a href="https://github.com/cjpablo0318/miniproject2.git">
+                See code here
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <div className="video">
+                <video autoPlay muted>
+                  <source src={CovidTracker} type="video/mp4" />
+                </video>
+              </div>
+              <h2>Covid-19 Tracker</h2>
+              <br />
+              <h4>
+                This web app can track covid-19 infected people around the
+                world. You can monitor covid-19 anytime anywhere by using this
+                app.
+              </h4>
+              <br />
+              <h4>Built using: REACT, API</h4>
+              <br />
+              <a href="https://github.com/yazin24/Covid19-tracker.git">
                 See code here
               </a>
             </div>
