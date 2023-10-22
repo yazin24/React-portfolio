@@ -275,6 +275,7 @@ textarea {
   position:relative;
 }
 .my-image::before {
+  
   content: '';
   position: absolute;
   inset: 12vmax 0 21%;
