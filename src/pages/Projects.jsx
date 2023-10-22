@@ -15,18 +15,17 @@ const Projects = () => {
       >
         <div className="flex flex-col">
           
-          <div className="flex flex-col md:flex-row gap-24">
+          <div className="flex flex-col md:flex-row justify-start gap-24">
             <div className="card">
               <div className="card-inner">
                 <div className="card-front border border-green-700">
-                  <div className="video border border-green-700 p-8">
+                  <div className="video border border-green-700 p-8 pb-16">
                     <video autoPlay muted>
                       <source src={Fave} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16">
-                  <h2 className="text-blsck">Fave Company System</h2>
-                  <br />
+                  <div className="mt-16 ml-4">
+                  <h2 className="text-black">Fave Company System</h2>
                   <br />
                   <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
@@ -46,9 +45,9 @@ const Projects = () => {
                       <source src={Shappy} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16">
+                  <div className="mt-16 ml-4">
                   <h2 className="text-black">Shappy Online Shop</h2>
-                  <br />
+                  
                   <br />
                   <h4 className="text-black">Built using: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
@@ -70,9 +69,8 @@ const Projects = () => {
                       <source src={Ennea} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16">
+                  <div className="mt-16 ml-4">
                   <h2 className="text-black">Ennea Apparel Shop</h2>
-                  <br />
                  
                   <br />
                   <h4 className="text-black">Built using: HTML, CSS, JAVASCRIPT, PHP</h4>
@@ -93,10 +91,8 @@ const Projects = () => {
                       <source src={CovidTracker} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16">
+                  <div className="mt-16 ml-4">
                   <h2 className="text-black">Covid-19 Tracker</h2>
-                  <br />
-               
                   <br />
                   <h4 className="text-black">Built using: REACT, API</h4>
                   <br />
