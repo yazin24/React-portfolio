@@ -8,6 +8,13 @@
 body {
   font-family: "Merriweather Sans", sans-serif;
   background-color: black;
+  color: rgb(0, 0, 0);
+  text-shadow:
+   -1px -1px 0 rgb(9, 164, 47),  
+    1px -1px 0 rgb(9, 164, 47),
+    -1px 1px 0 rgb(9, 164, 47),
+     1px 1px 0 rgb(9, 164, 47);
+     
   /* text-shadow: 3px 3px 3px rgb(9, 164, 47); */
 }
 
@@ -120,7 +127,7 @@ nav li:hover {
     gap: 5rem;
   }
   .myself {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .my-image {
     min-width: 18rem;
@@ -266,4 +273,29 @@ textarea {
     font-style: black;
   }
 }
+
+.my-image {
+  position:relative;
+}
+.my-image::before {
+  content: '';
+  position: absolute;
+  inset: 12vmax 0 21%;
+  background: rgb(9, 164, 47);
+  z-index: -1;
+  /* border-radius: 10px; */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  
+}
+
+h1 {
+  color: white;
+  text-shadow:
+   -1px -1px 0 rgb(9, 164, 47),  
+    1px -1px 0 rgb(9, 164, 47),
+    -1px 1px 0 rgb(9, 164, 47),
+     1px 1px 0 rgb(9, 164, 47);
+}
+
+
 

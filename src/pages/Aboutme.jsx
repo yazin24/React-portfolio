@@ -12,15 +12,16 @@ const Aboutme = () => {
       exit={{ opacity: 0 }}
     >
       <div className="my-image flex justify-center items-center align-center md:z-50">
-        <img src={Iris} className="flex justify-center items-center align-center w-48 mb-8"/>
+        
+        <img src={Iris} className="block flex justify-center items-center align-center w-48 mb-8"/>
       </div>
 
       <div className="myself">
-        <h1 className="title text-green-700 text-2xl md:text-4xl">
+        <h1 className="title text-black text-2xl md:text-4xl">
           John Iris Coniendo
         </h1>
         <br />
-        <p className="text-xs md-text-md text-green-700 md:text-xl">
+        <p className="text-xs md-text-md text-black md:text-xl">
           A dedicated Web Developer with a proven ability to adapt in both
           self-starting and collaborative environments while staying focused on
           achieving high quality results under strict deadlines. Eager to obtain
@@ -29,8 +30,8 @@ const Aboutme = () => {
         </p>
 
         <br />
-        <h2 className="title text-green-700 text-2xl">Skills:</h2>
-        <p className="text-green-700 text-xs md:text-md">
+        <h2 className="title text-black text-2xl">Skills:</h2>
+        <p className="text-black text-xs md:text-md">
           HTML | CSS | BOOTSTRAP | TAILWIND | JAVASCRIPT | PHP | LARAVEL | MYSQL | SQL |
           REACT | REACT-NATIVE | NODE JS | EXPRESS JS | MONGODB
         </p>

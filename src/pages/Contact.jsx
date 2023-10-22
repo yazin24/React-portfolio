@@ -26,12 +26,12 @@ const Contact = () => {
     <motion.div initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}>
-      <h1 className="text-center text-green-700 text-lg md:text-2xl mt-5 md:mt-24">Get in touch by Contacting Me</h1>
+      <h1 className="text-center text-black text-lg md:text-2xl mt-5 md:mt-12">Get in touch by Contacting Me</h1>
       <div className="contact-container text-white">
         <br />
         <br />
         <div className="contact-option text-xs flex flex-row  justify-center gap-5 md:mb-12">
-          <article className="text-green-700 options p-3 flex flex-row gap-2">
+          <article className="text-black options p-3 flex flex-row gap-2">
             <div>
               <FaEnvelope className="m-1 text-xl" />
             </div>
@@ -41,7 +41,7 @@ const Contact = () => {
               <br />
             </div>
           </article>
-          <article className=" text-green-700 options p-3 flex flex-row gap-2">
+          <article className=" text-black options p-3 flex flex-row gap-2">
             <div>
               <FaFacebookMessenger className="m-1 text-xl" />
             </div>
@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
           </article>
 
-          <article className="text-green-700 options p-3 flex flex-row gap-2">
+          <article className="text-black options p-3 flex flex-row gap-2">
             <div>
               <FaPhoneAlt className="m-1 text-xl" />
             </div>
