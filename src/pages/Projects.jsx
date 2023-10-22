@@ -25,12 +25,12 @@ const Projects = () => {
                     </video>
                   </div>
                   <div className="mt-16">
-                  <h2 className="text-green-700">Fave Company System</h2>
+                  <h2 className="text-blsck">Fave Company System</h2>
                   <br />
                   <br />
-                  <h4 className="text-green-700">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
-                  <a href="https://github.com/yazin24/capstoneproject.git" className="text-green-700">
+                  <a href="https://github.com/yazin24/capstoneproject.git" className="text-black">
                     See code here
                   </a>
                   </div>
@@ -47,12 +47,12 @@ const Projects = () => {
                     </video>
                   </div>
                   <div className="mt-16">
-                  <h2 className="text-green-700">Shappy Online Shop</h2>
+                  <h2 className="text-black">Shappy Online Shop</h2>
                   <br />
                   <br />
-                  <h4 className="text-green-700">Built using: PHP,LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black">Built using: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
-                  <a href="https://github.com/yazin24/capstoneproject.git" className="text-green-700">
+                  <a href="https://github.com/yazin24/capstoneproject.git" className="text-black">
                     See code here
                   </a>
                   </div>
@@ -71,13 +71,13 @@ const Projects = () => {
                     </video>
                   </div>
                   <div className="mt-16">
-                  <h2 className="text-green-700">Ennea Apparel Shop</h2>
+                  <h2 className="text-black">Ennea Apparel Shop</h2>
                   <br />
                  
                   <br />
-                  <h4 className="text-green-700">Built using: HTML, CSS, JAVASCRIPT, PHP</h4>
+                  <h4 className="text-black">Built using: HTML, CSS, JAVASCRIPT, PHP</h4>
                   <br />
-                  <a href="https://github.com/cjpablo0318/miniproject2.git" className="text-green-700">
+                  <a href="https://github.com/cjpablo0318/miniproject2.git" className="text-black">
                     See code here
                   </a>
                   </div>
@@ -94,13 +94,13 @@ const Projects = () => {
                     </video>
                   </div>
                   <div className="mt-16">
-                  <h2 className="text-green-700">Covid-19 Tracker</h2>
+                  <h2 className="text-black">Covid-19 Tracker</h2>
                   <br />
                
                   <br />
-                  <h4 className="text-green-700">Built using: REACT, API</h4>
+                  <h4 className="text-black">Built using: REACT, API</h4>
                   <br />
-                  <a href="https://github.com/yazin24/Covid19-tracker.git" className="text-green-700">
+                  <a href="https://github.com/yazin24/Covid19-tracker.git" className="text-black">
                     See code here
                   </a>
                   </div>

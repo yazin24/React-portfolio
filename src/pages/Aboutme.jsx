@@ -6,18 +6,21 @@ import { motion } from "framer-motion";
 const Aboutme = () => {
   return (
     <motion.div
-      className="about-me text-white text-sm m-14 "
+      className="about-me text-white text-sm m-8"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+      <div>
+      <div className="flex flex-col md:flex-row md:gap-16 border border-green-700 p-8">
+        
       <div className="my-image flex justify-center items-center align-center md:z-50">
         
         <img src={Iris} className="block flex justify-center items-center align-center w-48 mb-8"/>
       </div>
 
       <div className="myself">
-        <h1 className="title text-black text-2xl md:text-4xl">
+        <h1 className="title text-black text-xl md:text-2xl">
           John Iris Coniendo
         </h1>
         <br />
@@ -30,7 +33,7 @@ const Aboutme = () => {
         </p>
 
         <br />
-        <h2 className="title text-black text-2xl">Skills:</h2>
+        <h2 className="title text-black text-xl md:text-2xl">Skills:</h2>
         <p className="text-black text-xs md:text-md">
           HTML | CSS | BOOTSTRAP | TAILWIND | JAVASCRIPT | PHP | LARAVEL | MYSQL | SQL |
           REACT | REACT-NATIVE | NODE JS | EXPRESS JS | MONGODB
@@ -62,6 +65,8 @@ const Aboutme = () => {
         </ul>
 
         <br />
+      </div>
+      </div>
       </div>
     </motion.div>
   );

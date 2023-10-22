@@ -23,17 +23,17 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(225, 74, 74);
+  box-shadow: inset 0 0 5px rgb(9, 164, 47);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(225, 74, 74);
+  background: rgb(9, 164, 47);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(225, 74, 74);
+  background: rgb(9, 164, 47);
 }
 
 nav li {
@@ -120,14 +120,11 @@ nav li:hover {
 }
 @media only screen and (min-width: 1024px) {
   .about-me {
-    margin: 8rem;
+    margin: 4rem;
     margin-left: 15rem;
     margin-right: 15rem;
     gap: 10rem;
     gap: 5rem;
-  }
-  .myself {
-    margin-top: 1rem;
   }
   .my-image {
     min-width: 18rem;
