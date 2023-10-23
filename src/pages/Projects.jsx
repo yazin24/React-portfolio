@@ -52,7 +52,7 @@ const Projects = () => {
                   <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
                   <a href="https://github.com/yazin24/capstoneproject.git" className="text-black">
-                    See code here
+                  Code Here
                   </a>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                   <h4 className="text-black">Stacks: HTML, CSS, JAVASCRIPT, PHP</h4>
                   <br />
                   <a href="https://github.com/cjpablo0318/miniproject2.git" className="text-black">
-                    See code here
+                  Code Here
                   </a>
                   </div>
                 </div>
@@ -94,10 +94,10 @@ const Projects = () => {
                   <div className="mt-16 ml-4 text-xs md:text-lg">
                   <h2 className="text-black">Name: Covid-19 Tracker</h2>
                   <br />
-                  <h4 className="text-black">Built using: REACT, API</h4>
+                  <h4 className="text-black">Stacks: REACT, API</h4>
                   <br />
                   <a href="https://github.com/yazin24/Covid19-tracker.git" className="text-black">
-                    See code here
+                  Code Here
                   </a>
                   </div>
                 </div>
