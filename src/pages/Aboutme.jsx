@@ -17,6 +17,7 @@ const Aboutme = () => {
       <div className="my-image flex justify-center items-center align-center md:z-50 md:border-b-2 border-green-700">
         
         <img src={Iris} className="block flex justify-center items-center align-center w-52 md:w-96 mb-8 pr-2"/>
+        
       </div>
 
       <div className="myself flex flex-col justify-center">

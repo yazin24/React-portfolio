@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="contact-option text-xs flex flex-row  justify-center gap-5 md:mb-12">
           <article className="text-black options p-3 flex flex-row gap-2">
             <div>
-              <FaEnvelope className="m-1 text-xl" />
+              <FaEnvelope className="m-1 text-xl text-green-700" />
             </div>
             <div>
               <h3 className="hidden md:block">By Email</h3>
@@ -43,7 +43,7 @@ const Contact = () => {
           </article>
           <article className=" text-black options p-3 flex flex-row gap-2">
             <div>
-              <FaFacebookMessenger className="m-1 text-xl" />
+              <FaFacebookMessenger className="m-1 text-xl text-green-700" />
             </div>
             <div>
               <h3 className="hidden md:block">By Messenger</h3>
@@ -55,7 +55,7 @@ const Contact = () => {
 
           <article className="text-black options p-3 flex flex-row gap-2">
             <div>
-              <FaPhoneAlt className="m-1 text-xl" />
+              <FaPhoneAlt className="m-1 text-xl text-green-700" />
             </div>
             <div>
               <h3 className="hidden md:block">By phone </h3>

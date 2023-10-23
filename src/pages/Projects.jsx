@@ -29,7 +29,7 @@ const Projects = () => {
                   <br />
                   <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
-                  <a href="https://github.com/yazin24/capstoneproject.git" className="text-black">
+                  <a href="https://github.com/yazin24/fave_system" className="text-black">
                     See code here
                   </a>
                   </div>
