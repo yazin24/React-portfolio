@@ -27,7 +27,7 @@ const Projects = () => {
                   <div className="mt-16 ml-4 text-xs md:text-lg vv">
                   <h2 className="text-black">Name: Fave Company System</h2>
                   <br />
-                  <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black">Stacks: JAVASCRIPT PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
                   <a href="https://github.com/yazin24/fave_system" className="text-black">
                     Code Here
