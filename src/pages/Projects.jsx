@@ -21,16 +21,16 @@ const Projects = () => {
                 <div className="card-front border border-green-700">
                   <div className="video border border-green-700 p-8 pb-16">
                     <video autoPlay muted>
-                      <source src={Fave} type="video/mp4" />
+                      <source src={Fave} type="video/mp4"/>
                     </video>
                   </div>
-                  <div className="mt-16 ml-4">
-                  <h2 className="text-black">Fave Company System</h2>
+                  <div className="mt-16 ml-4 text-xs md:text-lg vv">
+                  <h2 className="text-black">Name: Fave Company System</h2>
                   <br />
                   <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
                   <a href="https://github.com/yazin24/fave_system" className="text-black">
-                    See code here
+                    Code Here
                   </a>
                   </div>
                 </div>
@@ -45,11 +45,11 @@ const Projects = () => {
                       <source src={Shappy} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16 ml-4">
-                  <h2 className="text-black">Shappy Online Shop</h2>
+                  <div className="mt-16 ml-4 text-xs md:text-lg">
+                  <h2 className="text-black">Name: Shappy Online Shop</h2>
                   
                   <br />
-                  <h4 className="text-black">Built using: PHP,LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black">Stacks: PHP,LARAVEL, MYSQL, TAILWIND</h4>
                   <br />
                   <a href="https://github.com/yazin24/capstoneproject.git" className="text-black">
                     See code here
@@ -69,11 +69,11 @@ const Projects = () => {
                       <source src={Ennea} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16 ml-4">
-                  <h2 className="text-black">Ennea Apparel Shop</h2>
+                  <div className="mt-16 ml-4 text-xs md:text-lg">
+                  <h2 className="text-black">Name: Ennea Apparel Shop</h2>
                  
                   <br />
-                  <h4 className="text-black">Built using: HTML, CSS, JAVASCRIPT, PHP</h4>
+                  <h4 className="text-black">Stacks: HTML, CSS, JAVASCRIPT, PHP</h4>
                   <br />
                   <a href="https://github.com/cjpablo0318/miniproject2.git" className="text-black">
                     See code here
@@ -91,8 +91,8 @@ const Projects = () => {
                       <source src={CovidTracker} type="video/mp4" />
                     </video>
                   </div>
-                  <div className="mt-16 ml-4">
-                  <h2 className="text-black">Covid-19 Tracker</h2>
+                  <div className="mt-16 ml-4 text-xs md:text-lg">
+                  <h2 className="text-black">Name: Covid-19 Tracker</h2>
                   <br />
                   <h4 className="text-black">Built using: REACT, API</h4>
                   <br />
