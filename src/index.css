@@ -290,7 +290,63 @@ textarea {
   color: rgb(9, 164, 47);;  
 } */
 
+.home-name {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  
+}
+
+/* Animation */
+.home-name {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 210px;}
+}
+
+.home-name {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation */
+.home-name {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 210px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
 @media only screen and (min-width: 768px) {
+
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 410px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  }
+
   .contact-container {
     display: flex;
     flex-direction: row;
@@ -351,6 +407,7 @@ h1 {
     -1px 1px 0 rgb(9, 164, 47),
      1px 1px 0 rgb(9, 164, 47);
 }
+
 
 
 

@@ -11,7 +11,7 @@ const Home = () => {
     exit={{opacity: 0}}
     >
       <div className="home-body">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl text-black">Hi, Im John Iris...</h1>
+        <h1 className="home-name text-2xl md:text-3xl lg:text-5xl text-black">Hi, Im John Iris...</h1>
         <h3 className="text-xl md:text-2xl lg:text-4xl text-black">Nice To Meet You.</h3>
         <h4 className="title text-md text-black md:text-lg lg:text-2xl">Web Developer</h4>
       </div>
