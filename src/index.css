@@ -10,7 +10,7 @@ body {
   --c: #14151a;
   --_s: calc(2*var(--s)) calc(2*var(--s));
   --_g: 35.36% 35.36% at;
-  --_c: #0000 66%,#1e1e1e70 68% 70%,#0000 72%;
+  --_c: #0000 66%,#1e1e1e91 68% 70%,#0000 72%;
   background: 
     radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
     radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 

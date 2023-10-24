@@ -24,7 +24,7 @@ const Projects = () => {
                   <div className="my-8 ml-4 text-xs md:text-lg vv">
                   <h2 className="text-black">Fave Company System</h2>
                   
-                  <h4 className="text-black text-xs my-2">Stacks: JAVASCRIPT, PHP, LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black text-xs my-2">Made In: JAVASCRIPT, PHP, LARAVEL, MYSQL, TAILWIND</h4>
                   
                   <a href="https://github.com/yazin24/fave_system" className="text-black text-xs pt-2">
                     Code Here
@@ -41,7 +41,7 @@ const Projects = () => {
                   <div className="my-8 ml-4 text-xs md:text-lg vv">
                   <h2 className="text-black">Shappy Capstone Project</h2>
                   
-                  <h4 className="text-black text-xs my-2">Stacks: PHP, LARAVEL, MYSQL, TAILWIND</h4>
+                  <h4 className="text-black text-xs my-2">Made In: PHP, LARAVEL, MYSQL, TAILWIND</h4>
                   
                   <a href="https://github.com/yazin24/capstoneproject" className="text-black text-xs mt-2">
                     Code Here
@@ -58,7 +58,7 @@ const Projects = () => {
                   <div className="my-8 ml-4 text-xs md:text-lg vv">
                   <h2 className="text-black">Covid Tracker</h2>
                   
-                  <h4 className="text-black text-xs my-2">Stacks: REACT JS, COVID API</h4>
+                  <h4 className="text-black text-xs my-2">Made In: REACT JS, COVID API</h4>
                   
                   <a href="https://github.com/yazin24/Covid19-tracker" className="text-black text-xs mt-2">
                     Code Here
