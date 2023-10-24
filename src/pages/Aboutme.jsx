@@ -12,6 +12,7 @@ const Aboutme = () => {
       exit={{ opacity: 0 }}
     >
       <div>
+        <h2 className="text-center text-black text-xl mb-4">ABOUT ME</h2>
       <div className="flex flex-col md:flex-row md:gap-8 border border-green-700 p-8">
         
       <div className="my-image flex justify-center items-center align-center md:z-50 md:border-b-2 border-green-700">
