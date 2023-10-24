@@ -5,8 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap");
 
 
-
-
 body {
   --s: 50px;
   --c: #191b22;
@@ -18,8 +16,8 @@ body {
     radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
     radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
     radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s); 
-    /* repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),  */
-    /* radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c); */
+    /* repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c); */
   background-attachment: fixed;
   font-family: "Merriweather Sans", sans-serif;
   background-color: rgb(0, 0, 0);
@@ -367,7 +365,6 @@ h1 {
     -1px 1px 0 rgb(21 128 61),
      1px 1px 0 rgb(21 128 61);
 }
-
 
 
 
