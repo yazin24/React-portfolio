@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./IRIS_CV.pdf";
+import CV from "./john_iris_cv.pdf";
 import {motion} from 'framer-motion';
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
       
       <div>
        <a href={CV} download>
-        <button className="cv-button p-2 border border-green-700 rounded-sm text-xs hover:bg-green-700 hover:text-gray-200">Download CV</button>
+        <button className="p-2 border border-green-700 rounded-sm text-xs hover:bg-green-700 hover:text-gray-200">Download CV</button>
         </a>
       </div>
     </motion.div>

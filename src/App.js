@@ -23,7 +23,7 @@ function App() {
       </div>
       </div> */}
 
-  <div className="bg"></div>
+  {/* <div className="bg"></div> */}
        
       <AnimatedRoutes/>
       </BrowserRouter>
