@@ -6,21 +6,9 @@
 
 
 body {
-  --s: 50px;
-  --c: #14151a;
-  --_s: calc(2*var(--s)) calc(2*var(--s));
-  --_g: 35.36% 35.36% at;
-  --_c: #0000 66%,#1e1e1e91 68% 70%,#0000 72%;
-  background: 
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
-    radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
-    radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s); 
-    /* repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
-    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c); */
-  background-attachment: fixed;
+  
   font-family: "Merriweather Sans", sans-serif;
-  background-color: rgb(0, 0, 0);
+  
   margin: 0;
   overflow-x: hidden;
   color: rgb(0, 0, 0);
@@ -207,7 +195,7 @@ nav li:hover {
     position: absolute;
     inset: 10vmax 10 26%;
     border-radius:4rem 0.1rem;
-    background: rgb(9, 164, 47);
+    
     z-index: -1;
     /* border-radius: 10px; */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -333,7 +321,7 @@ textarea {
     position: absolute;
     inset: 9vmax 0 21%;
     border-radius:4rem 0.1rem;
-    background: rgb(9, 164, 47);
+   
     z-index: -1;
     /* border-radius: 10px; */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -350,7 +338,6 @@ textarea {
   position: absolute;
   inset: 9vmax 0 15%;
   border-radius:4rem 0.1rem;
-  background: rgb(9, 164, 47);
   z-index: -1;
   /* border-radius: 10px; */
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

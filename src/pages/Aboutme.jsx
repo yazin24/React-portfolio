@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
-import Iris from "./iris-image.png";
+import Iris from "./irisimage.png";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
@@ -8,16 +8,16 @@ const Aboutme = () => {
     <motion.div
       className="about-me text-white text-sm m-8"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 2 }}
       exit={{ opacity: 0 }}
     >
       <div>
         <h2 className="text-center text-black text-xl mb-4">ABOUT ME</h2>
       <div className="flex flex-col md:flex-row md:gap-8 border border-green-700 p-8">
         
-      <div className="my-image flex justify-center items-center align-center md:z-50 md:border-b-2 border-green-700">
+      <div className="my-image flex justify-center items-center align-center md:z-50 md:border-b-2">
         
-        <img src={Iris} className="block flex justify-center items-center align-center w-52 md:w-96 mb-8 pr-2"/>
+        <img src={Iris}/>
         
       </div>
 
