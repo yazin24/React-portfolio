@@ -1,26 +1,31 @@
 import React from "react";
 import CV from "./john_iris_cv.pdf";
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
+import Footer from "./Footer";
 
 const Home = () => {
 
   return (
-    <motion.div className="homepage text-green-700 m-20"
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
+    <motion.div className="flex flex-col justify-center"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
-      <div className="home-body">
-        <h1 className="home-name text-2xl md:text-3xl lg:text-5xl text-black">Hi, Im John Iris...</h1>
-        <h3 className="text-xl md:text-2xl lg:text-4xl text-black">Nice To Meet You.</h3>
-        <h4 className="title text-md text-black md:text-lg lg:text-2xl">Web Developer</h4>
+      <div className="">
+        <div className="flex flex-col justify-center mx-auto">
+          <h2 className="font-bold mx-auto">FULL STACK DEVELOPER</h2>
+          <h2 className="fullName text-3xl font-black mx-auto">I'm John Iris Coniendo</h2>
+        </div>
+        <div className="flex flex-col">
+          <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md text-white font-bold text-xs mx-4 py-4"><a href="">MORE ABOUT ME</a></button>
+          <button className="bg-white hover:shadow-md font-bold text-xs mx-4 py-4 mt-2"><a>DOWNLOAD CV</a></button>
+        </div>
+
       </div>
-      
       <div>
-       <a href={CV} download>
-        <button className="p-2 border border-green-700 rounded-sm text-xs hover:bg-green-700 hover:text-gray-200">Download CV</button>
-        </a>
+        asdasd
       </div>
+      <Footer/>
     </motion.div>
   );
 };

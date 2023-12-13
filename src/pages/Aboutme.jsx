@@ -13,20 +13,18 @@ const Aboutme = () => {
     >
       <div>
         <h2 className="text-center text-black text-xl mb-4">ABOUT ME</h2>
-      <div className="flex flex-col md:flex-row md:gap-8 border border-green-700 p-8">
+      <div className="flex flex-col md:flex-row md:gap-8 p-8">
         
-      <div className="my-image flex justify-center items-center align-center md:z-50 md:border-b-2">
-        
+      <div className="my-image flex justify-center items-center align-center md:z-50">
         <img src={Iris}/>
-        
       </div>
 
       <div className="myself flex flex-col justify-center">
-        <h1 className="title text-black text-xl md:text-2xl border-b-2 border-green-700 pb-2">
+        <h1 className="title text-black text-xl md:text-2xl  pb-2">
           John Iris Coniendo
         </h1>
         <br />
-        <p className="text-xs md-text-md text-black md:text-lg border-b-2 border-green-700 pb-2">
+        <p className="text-xs md-text-md text-black md:text-lg pb-2">
           A dedicated Web Developer with a proven ability to adapt in both
           self-starting and collaborative environments while staying focused on
           achieving high quality results under strict deadlines. Eager to obtain
@@ -34,13 +32,13 @@ const Aboutme = () => {
           learning and build upon my developer skills.
         </p>
 
-        <br />
-        <h2 className="title text-black text-xl md:text-2xl border-b-2 border-green-700 pb-2 mb-2">Skills:</h2>
-        <p className="text-black text-xs md:text-md border-b-2 border-green-700 pb-2">
+      
+        <h2 className="title text-black text-xl md:text-2xl pb-2 mb-2">Skills:</h2>
+        <p className="text-black text-xs md:text-md pb-2">
           HTML | CSS | BOOTSTRAP | TAILWIND | JAVASCRIPT | PHP | LARAVEL | MYSQL | SQL |
           REACT | REACT-NATIVE | NODE JS | EXPRESS JS | MONGODB
         </p>
-        <br />
+      
 
         <ul className="flex gap-4 text-green-700">
           <li>
@@ -66,7 +64,7 @@ const Aboutme = () => {
           </li>
         </ul>
 
-        <br />
+      
       </div>
       </div>
       </div>

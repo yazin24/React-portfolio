@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <>
+    <div>
    <BrowserRouter>
     {/* <div className='stars z-10'>
     <div className='stars2 z-10'>
@@ -25,10 +25,10 @@ function App() {
 
   {/* <div className="bg"></div> */}
        
-      <AnimatedRoutes/>
+      <AnimatedRoutes className="bg-gray-900"/>
       </BrowserRouter>
    
-    </>
+    </div>
   );
 }
 

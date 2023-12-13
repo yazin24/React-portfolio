@@ -16,9 +16,9 @@ const AnimatedRoutes = () => {
     const location= useLocation();
 
   return (
-    <div>
+    <div className="bg-gray-200">
         <nav>
-      <ul className='nav-bar flex flex-row justify-center font-[0.2] font-bold gap-14 relative p-10 bg-none text-green-600 text-lg md:text-2xl md:gap-44'>
+      <ul className='nav-bar flex flex-row justify-center font-[0.2] font-bold gap-14 relative p-10 bg-none text-cyan-400 text-lg md:text-2xl md:gap-44'>
       
       
 
