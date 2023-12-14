@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Aboutme from './pages/Aboutme';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from "./pages/Footer";
 import { FaHome, FaAddressCard, FaFolderOpen, FaPhoneSquareAlt } from "react-icons/fa";
 import AnimatedRoutes from "./pages/AnimatedRoutes";
 
@@ -27,7 +28,7 @@ function App() {
        
       <AnimatedRoutes className="bg-gray-900"/>
       </BrowserRouter>
-   
+      <Footer/>
     </div>
   );
 }

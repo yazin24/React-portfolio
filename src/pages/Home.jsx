@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Home = () => {
 
   return (
-    <motion.div className="flex flex-col justify-center min-h-screen"
+    <motion.div className="flex flex-col justify-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -18,14 +18,14 @@ const Home = () => {
           <h2 className="fullName text-3xl font-black mx-auto">I'm John Iris Coniendo</h2>
         </div>
 
-        <div className="flex flex-col">
-          <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md text-white font-bold text-xs mx-4 py-4"><a href="">MORE ABOUT ME</a></button>
-          <button className="bg-white hover:shadow-md font-bold text-xs mx-4 py-4 mt-2"><a>DOWNLOAD CV</a></button>
+        <div className="flex flex-col md:flex-row justify-center gap-2 mt-2">
+          <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md text-white font-bold text-xs mx-4 md:mx-0 p-4 md:px-16"><a href="">MORE ABOUT ME</a></button>
+          <button className="bg-white hover:shadow-md font-bold text-xs mx-4 md:mx-0 p-4 md:px-16"><a>DOWNLOAD CV</a></button>
         </div>
 
       </div>
 
-      <Footer />
+     
     </motion.div>
   );
 };

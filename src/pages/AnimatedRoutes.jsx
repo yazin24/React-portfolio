@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
     const location= useLocation();
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 min-h-screen">
         <nav>
       <ul className='nav-bar flex flex-row justify-center font-[0.2] font-bold gap-14 relative p-10 bg-none text-cyan-400 text-lg md:text-2xl md:gap-44'>
       
