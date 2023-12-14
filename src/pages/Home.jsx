@@ -7,12 +7,12 @@ import Iris from './image-iris.png';
 const Home = () => {
 
   return (
-    <motion.div className="flex flex-col lg:flex-row justify-center"
+    <motion.div className="flex flex-col lg:flex-row justify-center min-h-screen"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="lg:mt-72 w-full">
+      <div className="lg:mt-96 w-full">
 
         <div className="flex flex-col justify-center ">
           <h2 className="font-black text-cyan-400 mx-auto">FULL STACK DEVELOPER</h2>
@@ -26,8 +26,8 @@ const Home = () => {
 
       </div>
 
-      <div className="flex justify-center lg:justify-start w-full lg:bg-cyan-400 min-h-screen">
-        <img src={Iris} alt="iris_image" className="w-3/4 text-center z-50"/>
+      <div className="min-h-screen flex justify-center lg:justify-start min-h-min w-full md:bg-cyan-400 pt-12 md:p-0 md:mt-16 md:pt-8 lg:p-16  ">
+        <img src={Iris} alt="iris_image" className="h-96 md:h-3/4 lg:h-full text-center z-50 scale-x-[-1]"/>
       </div>
 
      
