@@ -10,8 +10,9 @@ const Aboutme = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 2 }}
       exit={{ opacity: 0 }}
+      transition={{ duration: 0.8 }}
     >
-      <h2 className="text-center font-bold text-gray-900">ABOUT ME</h2>
+      <h2 className="text-center font-bold text-xl text-gray-900">ABOUT ME</h2>
 
       <div className="flex flex-col lg:flex-row">
 
@@ -48,7 +49,16 @@ const Aboutme = () => {
         <h2 className="mb-8 font-bold">Email: <span className="text-cyan-400 font-bold ml-4">YAZINCONIENDO@GMAIL.COM</span></h2>
         <h2 className="mb-8 font-bold">Phone: <span className="text-cyan-400 font-bold ml-4">09994685156 / 09352703145</span></h2>
        </div>
+       
         </div>
+
+        <div className="flex flex-row text-2xl gap-6 mb-4 text-cyan-400">
+          <a href="https://www.facebook.com/yazin24/"><FaFacebookSquare/></a>
+          <a href="https://www.linkedin.com/in/john-iris-coniendo-08953b225/"><FaLinkedin/></a>
+          <a href="https://github.com/yazin24"><FaGithubSquare/></a>
+        
+       </div>
+
         <button className="bg-cyan-400 hover:bg-cyan-500 p-2 font-bold text-white hover:shadow-md mt-4">DOWNLOAD CV</button>
       </div>
 

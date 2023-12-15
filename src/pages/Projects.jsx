@@ -18,9 +18,10 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
+        transition={{ duration: 0.8 }}
       >
 
-        <h2 className="text-center font-bold">WORK EXPERIENCES AND PROJECTS</h2>
+        <h2 className="text-center font-bold text-xl">WORK EXPERIENCES AND PROJECTS</h2>
 
         <div className="">
 

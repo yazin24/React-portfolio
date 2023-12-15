@@ -27,9 +27,11 @@ const Contact = () => {
   return (
     <motion.div initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}>
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.8 }}
+      >
 
-        <h2 className="text-center font-bold text-xl my-8">Contact Me</h2>
+        <h2 className="text-center font-bold text-xl my-8">CONTACT ME</h2>
 
       <div className="flex flex-col justify-center mx-auto md:flex-row bg-white text-cyan-500 font-bold md:w-3/4 m-4">
 
