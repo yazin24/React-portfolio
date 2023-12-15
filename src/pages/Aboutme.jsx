@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaHandsHelping, FaMugHot, FaClock, FaClipboardList } from "react-icons/fa";
 import Iris from "./irisimage.png";
 import { motion } from "framer-motion";
 
@@ -20,15 +20,15 @@ const Aboutme = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
 
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">ADAPTABILITY</div>
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">FAST LEARNER</div>
+          <div className="bg-white text-cyan-500 py-12 px-30 lg:px-28 text-center text-6xl"><FaHandsHelping className="text-center mx-auto"/></div>
+          <div className="bg-white text-cyan-500 py-12 px-30 lg:px-28 text-center text-6xl"><FaMugHot className="text-center mx-auto"/></div>
 
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
 
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">PROBLEM SOLVING</div>
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">ATTENTION TO DETAILS</div>
+          <div className="bg-white text-cyan-500 py-12 px-30 lg:px-28 text-center text-6xl"><FaClock className="text-center mx-auto"/></div>
+          <div className="bg-white text-cyan-500 py-12 px-30 lg:px-28 text-center text-6xl"><FaClipboardList className="text-center mx-auto"/></div>
 
         </div>
 
