@@ -20,15 +20,15 @@ const Aboutme = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
 
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">SAMPLE</div>
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">SAMPLE</div>
+          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">ADAPTABILITY</div>
+          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">FAST LEARNER</div>
 
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
 
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">SAMPLE</div>
-          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">SAMPLE</div>
+          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">PROBLEM SOLVING</div>
+          <div className="bg-white text-cyan-500 py-16 px-30 lg:px-32 text-center">ATTENTION TO DETAILS</div>
 
         </div>
 

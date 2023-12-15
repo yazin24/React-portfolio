@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="p-8 md:w-1/2">
+        <div className="p-8 md:w-1/2 mb-4">
           <form onSubmit={submitSuccess}>
             <input type="text" placeholder="Name" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" required/>
             <input type="text" placeholder="Email" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" required/>
