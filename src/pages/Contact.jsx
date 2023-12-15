@@ -26,76 +26,18 @@ const Contact = () => {
     <motion.div initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}>
-      <h1 className="text-center text-black text-lg md:text-2xl mt-5 md:mt-12">Get in touch by Contacting Me</h1>
-      <div className="contact-container text-white">
-        <br />
-        <br />
-        <div className="contact-option text-xs flex flex-row  justify-center gap-5 md:mb-12">
-          <article className="text-black options p-3 flex flex-row gap-2">
-            <div>
-              <FaEnvelope className="m-1 text-xl text-green-700" />
-            </div>
-            <div>
-              <h3 className="hidden md:block">By Email</h3>
-              <h4 className="hidden md:block">Fill up the form</h4>
-              <br />
-            </div>
-          </article>
-          <article className=" text-black options p-3 flex flex-row gap-2">
-            <div>
-              <FaFacebookMessenger className="m-1 text-xl text-green-700" />
-            </div>
-            <div>
-              <h3 className="hidden md:block">By Messenger</h3>
-              <h4 className="hidden md:block">John Iris Coniendo</h4>
-              <br />
-              <a href="https://m.me/johniris.coniendo" className="hidden md:block">Send a message</a>
-            </div>
-          </article>
-
-          <article className="text-black options p-3 flex flex-row gap-2">
-            <div>
-              <FaPhoneAlt className="m-1 text-xl text-green-700" />
-            </div>
-            <div>
-              <h3 className="hidden md:block">By phone </h3>
-              <h4 className="hidden md:block">09994685156</h4>
-              <br />
-              <h4 className="hidden md:block">Send a message</h4>
-            </div>
-          </article>
-        </div>
-    
-        <div>
-          <form ref={form} onSubmit={sendEmail} className="contact-form mt-4 md:mt-24">
-            <input
-              type="text"
-              name="name"
-              placeholder="Full Name"
-              className="border border-green-700 transparent bg-black text-green-700 text-xs"
-              required
-            />
-            <input
-              type="text"
-              name="email"
-              placeholder="Email Address"
-              className="border border-green-700 transparent bg-black text-green-700 text-xs" 
-              required
-            />
-            <textarea
-              name="message"
-              rows="9"
-              column="10"
-              placeholder="Your Message"
-              className="border border-green-700 transparent bg-black text-green-700 text-xs"
-              required
-            ></textarea>
-            <button type="submit" className="border border-green-700 p-2 rounded-sm text-xs text-green-700 hover:text-gray-200 hover:bg-green-700">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </div>
+   
+         <div className="flex flex-col justify-center md:flex-row bg-white text-cyan-500 font-bold md:w-3/4 m-4">
+             <div>asdasd</div>
+             <div className="p-8">
+              <input type="text" placeholder="Name" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2"/>
+              <input type="text" placeholder="Email" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2"/>
+              <input type="text" placeholder="Subject" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2"/>
+              <textarea name="message" id="" cols="20" rows="7" className="text-xl border border-2 rounded-sm w-full" value='Enter Message '></textarea>
+              <button className="bg-cyan-400 hover:bg-cyan-500 text-white hover:shadow-md px-2 py-1 font-bold">Submit</button>
+             </div>
+         </div>
+         
     </motion.div>
   );
 };

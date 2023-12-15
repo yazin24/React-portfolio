@@ -68,7 +68,7 @@ const Projects = () => {
                 
                 <div className="lg:mx-8 my-8">
                   <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">SHAPPY CAPSTONE PROJECT</h2>
-                  <p className="md:text-xl lg:text-2xl my-8">As part of a 3 man team, create a fully functional ecommerce system using PHP and LARAVEL with MYSQl as database. </p>
+                  <p className="md:text-xl lg:text-2xl my-8">As part of a 3 man team, create a fully functional ecommerce system using PHP and LARAVEL with MYSQL as database. </p>
                   <h2 className="font-bold mb-2">Stacks Use: </h2>
 
                   <div className="flex flex-col md:flex-row md:gap-8">
