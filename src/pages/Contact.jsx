@@ -20,7 +20,7 @@ const Contact = () => {
   const handleCloseMessage = () => {
 
     setShowMessage(false);
-
+    window.location.reload();
   };
 
 
@@ -33,10 +33,11 @@ const Contact = () => {
         <div>asdasd</div>
         <div className="p-8">
           <form onSubmit={submitSuccess}>
-            <input type="text" placeholder="Name" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" />
-            <input type="text" placeholder="Email" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" />
-            <input type="text" placeholder="Subject" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" />
-            <textarea name="message" id="" cols="20" rows="7" className="text-xl border border-2 rounded-sm w-full" value='Enter Message '></textarea>
+            <input type="text" placeholder="Name" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" required/>
+            <input type="text" placeholder="Email" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-2" required/>
+            <input type="text" placeholder="Subject" className="text-xl md:text-2xl border border-2 rounded-sm w-full mb-4" required/>
+            <label className="text-xl md:text-2xl">Message:</label>
+            <textarea name="message" id="" cols="20" rows="7" className="text-xl border border-2 rounded-sm w-full" required></textarea>
             <button type="submit" className="bg-cyan-400 hover:bg-cyan-500 text-white hover:shadow-md px-2 py-1 font-bold">Submit</button>
           </form>
           <SubmitSuccessMessage show={showMessage} handleCloseMessage={handleCloseMessage}/>
