@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaHandsHelping, FaMugHot, FaClock, FaClipboardList } from "react-icons/fa";
-import Iris from "./irisimage.png";
+import CV from "./john_iris_coniendo.pdf";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
@@ -14,7 +14,7 @@ const Aboutme = () => {
     >
       <h2 className="text-center font-bold text-xl text-gray-900">ABOUT ME</h2>
 
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row justify-center">
 
       <div className="flex flex-col gap-8 mt-4 lg:mt-24 lg:mx-12">
 
@@ -59,7 +59,7 @@ const Aboutme = () => {
         
        </div>
 
-        <button className="bg-cyan-400 hover:bg-cyan-500 p-2 font-bold text-white hover:shadow-md mt-4">DOWNLOAD CV</button>
+        <button className="bg-cyan-400 hover:bg-cyan-500 p-2 font-bold text-white hover:shadow-md mt-4"><a href={CV} download>DOWNLOAD CV</a></button>
       </div>
 
       </div>

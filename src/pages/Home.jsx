@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./john_iris_cv.pdf";
+import CV from "./john_iris_coniendo.pdf";
 import { motion } from 'framer-motion';
 import Footer from "./Footer";
 import Iris from './image-iris.png';
@@ -22,7 +22,7 @@ const Home = () => {
 
         <div className="flex flex-col md:flex-row justify-center gap-2 lg:mt-8">
           <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md text-white font-bold text-xs mx-4 md:mx-0 p-4 md:px-16"><a href="">MORE ABOUT ME</a></button>
-          <button className="bg-white hover:shadow-md font-bold text-xs mx-4 md:mx-0 p-4 md:px-16"><a>DOWNLOAD CV</a></button>
+          <button className="bg-white hover:shadow-md font-bold text-xs mx-4 md:mx-0 p-4 md:px-16"><a href={CV}download>DOWNLOAD CV</a></button>
         </div>
 
       </div>
