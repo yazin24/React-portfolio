@@ -4,13 +4,16 @@ import CV from "./john_iris_coniendo.pdf";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
+
+  const transition = { duration: 0.8, ease: [0.6, 0.01, -0.05, 0.9] }
+
   return (
     <motion.div
       className="text-sm m-8"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 2 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.8 }}
+      transition={ {transition} }
     >
       <h2 className="text-center font-bold text-xl text-gray-900">ABOUT ME</h2>
 

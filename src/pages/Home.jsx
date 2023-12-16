@@ -6,12 +6,14 @@ import Iris from './image-iris.png';
 
 const Home = () => {
 
+  const transition = { duration: 0.8, ease: [0.6, 0.01, -0.05, 0.9] }
+
   return (
     <motion.div className="flex flex-col lg:flex-row justify-center min-h-screen"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    exit={{ opacity: 0, scale: 0.8 }}
+    transition={ {transition} }
     >
       <div className="lg:mt-96 w-full">
 
