@@ -40,24 +40,18 @@ const Projects = () => {
                 <img src={Superset} className="hidden lg:block lg:w-1/4" />
                 <img src={Superset1} className="hidden lg:block lg:w-1/4" />
                 <div className="lg:mx-8 my-8">
-                  <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">FAVE ECOMMERCE INC.</h2>
-                  <p className="md:text-xl lg:text-2xl my-8">Make a web based system using the LAMPSTACK(LINUX, APACHE, MYSQL, PHP).</p>
+                  <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">Aces4ItWorksCompany</h2>
+                  <p className="md:text-xl lg:text-2xl my-8">Install and configure apache superset dashbooard on linux server and embed it in a existing web based system. Create charts on top of the dashboard depending on user and admin request.</p>
                   <h2 className="font-bold mb-2">Stacks Use: </h2>
 
                   <div className="flex flex-col md:flex-row md:gap-8">
                     <div className="flex flex-col gap-2">
-                      <h3 className="text-cyan-400 font-bold">TAILWIND</h3>
-                      <h3 className="text-cyan-400 font-bold">CSS</h3>
-                      <h3 className="text-cyan-400 font-bold">JAVASCRIPT</h3>
-                      <h3 className="text-cyan-400 font-bold">PHP</h3>
+                      <h3 className="text-cyan-400 font-bold">APACHE SUPPERSET</h3>
+                      <h3 className="text-cyan-400 font-bold">LINUX UBUNTU SERVER</h3>
+                      <h3 className="text-cyan-400 font-bold">MSSQL</h3>
+                      <h3 className="text-cyan-400 font-bold">C#</h3>
                     </div>
 
-                    <div className="flex flex-col gap-2">
-                      <h3 className="text-cyan-400 font-bold">LARAVEL</h3>
-                      <h3 className="text-cyan-400 font-bold">MYSQL</h3>
-                      <h3 className="text-cyan-400 font-bold">APACHE</h3>
-                      <h3 className="text-cyan-400 font-bold">LINUX</h3>
-                    </div>
                   </div>
                   <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md p-4 font-bold text-white my-8"><a href="https://github.com/yazin24/fave_system">GITHUB LINK HERE</a></button>
                 </div>
@@ -73,22 +67,19 @@ const Projects = () => {
                 <img src={Shappy2} className="w-full lg:hidden" />
 
                 <div className="lg:mx-8 my-8">
-                  <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">SHAPPY CAPSTONE PROJECT</h2>
-                  <p className="md:text-xl lg:text-2xl my-8">As part of a 3 man team, create a fully functional ecommerce system using PHP and LARAVEL with MYSQL as database. </p>
+                  <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">Elisa Polystar</h2>
+                  <p className="md:text-xl lg:text-2xl my-8">Creating SQL queries based on client's request. Reingesting old data into new projects and checking data files for smooth company process.</p>
                   <h2 className="font-bold mb-2">Stacks Use: </h2>
 
                   <div className="flex flex-col md:flex-row md:gap-8">
                     <div className="flex flex-col gap-2">
-                      <h3 className="text-cyan-400 font-bold">TAILWIND</h3>
-                      <h3 className="text-cyan-400 font-bold">CSS</h3>
-                      <h3 className="text-cyan-400 font-bold">JAVASCRIPT</h3>
-                      <h3 className="text-cyan-400 font-bold">PHP</h3>
+                      <h3 className="text-cyan-400 font-bold">SQL</h3>
+                      <h3 className="text-cyan-400 font-bold">ELASTICSEARCH</h3>
+                      <h3 className="text-cyan-400 font-bold">CITRIX</h3>
+
                     </div>
 
-                    <div className="flex flex-col gap-2">
-                      <h3 className="text-cyan-400 font-bold">LARAVEL</h3>
-                      <h3 className="text-cyan-400 font-bold">MYSQL</h3>
-                    </div>
+
                   </div>
                   <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md p-4 font-bold text-white my-8"><a href="https://github.com/yazin24/capstoneproject">GITHUB LINK HERE</a></button>
                 </div>
