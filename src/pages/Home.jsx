@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./john_iris_coniendo.pdf";
+import CV from "./john_iris_coniendo_cv.pdf";
 import { motion } from 'framer-motion';
 import Footer from "./Footer";
 import Iris from './image-iris.png';

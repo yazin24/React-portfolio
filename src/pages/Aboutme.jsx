@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaHandsHelping, FaMugHot, FaClock, FaClipboardList } from "react-icons/fa";
-import CV from "./john_iris_coniendo.pdf";
+import CV from "./john_iris_coniendo_cv.pdf";
 import { motion } from "framer-motion";
 
 const Aboutme = () => {
@@ -38,7 +38,7 @@ const Aboutme = () => {
       </div>
 
       <div className="mt-16 lg:mt-24 pb-16">
-        <h1 className="text-xl font-bold">A FULLSTACK DEVELOPER BASED IN PHILIPPINES</h1>
+        <h1 className="text-xl font-bold">A FULLSTACK DEVELOPER/DATA ANALYST BASED IN PHILIPPINES</h1>
         <p className="my-8 lg:text-xl">Navigating the intricate maze of code, I uncover the artistry in logic,<br></br> where every keystroke is a brushstroke painting the canvas of a virtual masterpiece.</p>
         
         <div className="flex flex-col lg:flex-row lg:gap-8">
