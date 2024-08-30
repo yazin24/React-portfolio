@@ -18,8 +18,8 @@ const Home = () => {
       <div className="lg:mt-96 w-full">
 
         <div className="flex flex-col justify-center ">
-          <h2 className="font-black text-cyan-400 mx-auto">FULL STACK DEVELOPER</h2>
-          <h2 className="fullName text-3xl font-black mx-auto">I'm John Iris Coniendo</h2>
+          <h2 className="font-black text-cyan-400 mx-auto">FULL STACK DEVELOPER/DATA ANALYST</h2>
+          <h2 className="fullName text-4xl font-black mx-auto">I'm John Iris Coniendo</h2>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-2 lg:mt-8">
