@@ -2,7 +2,7 @@ import React from "react";
 import CV from "./john_iris_coniendo_cv.pdf";
 import { motion } from 'framer-motion';
 import Footer from "./Footer";
-import Iris from './image-iris.png';
+import Iris from './johniris.png';
 
 const Home = () => {
 
@@ -29,8 +29,8 @@ const Home = () => {
 
       </div>
 
-      <div className="min-h-screen flex justify-center lg:justify-start min-h-min w-full md:bg-cyan-400 pt-12 md:p-0 md:mt-16 md:pt-8 lg:p-16  ">
-        <img src={Iris} alt="iris_image" className="h-96 md:h-3/4 lg:h-full text-center z-50 scale-x-[-1]"/>
+      <div className="min-h-screen flex justify-center lg:justify-start min-h-min w-full">
+        <img src={Iris} alt="iris_image" className="h-96 md:h-3/4 lg:h-full text-center z-50"/>
       </div>
 
      
