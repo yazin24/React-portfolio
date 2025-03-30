@@ -2,7 +2,7 @@ import React from "react";
 import CV from "./john_iris_coniendo_cv.pdf";
 import { motion } from 'framer-motion';
 import Footer from "./Footer";
-import Iris from 'iris_face_swap.png';
+import Iris from '/iris_face_swap.png';
 
 const Home = () => {
 
