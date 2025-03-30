@@ -30,7 +30,7 @@ const Home = () => {
       </div>
 
       <div className="min-h-screen flex justify-center lg:justify-start min-h-min w-full">
-        <img src={Iris} alt="iris_image" className="h-96 md:h-3/4 lg:h-full text-center z-50"/>
+        <img src={Iris} alt="iris_image" className="h-96 pt-4 md:h-3/4 lg:h-full text-center z-50"/>
       </div>
 
      
