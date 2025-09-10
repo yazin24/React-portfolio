@@ -13,6 +13,8 @@ import Shappy2 from './shappy2.png';
 import Tracker from './tracker.png';
 import Tracker1 from './tracker1.png';
 import Tracker2 from './tracker2.png';
+import freelance2 from './freelance2.png';
+import freelance3 from './freelance3.png';
 
 const Projects = () => {
 
@@ -31,6 +33,40 @@ const Projects = () => {
         <h2 className="text-center font-bold text-xl">WORK EXPERIENCES AND PROJECTS</h2>
 
         <div className="">
+
+          <div className=" bg-white flex flex-col lg:flex-row mt-8">
+
+            <div className="p-2 flex flex-col lg:flex-row">
+              <div className="flex flex-col lg:flex-row w-full">
+                <img src={freelance2} className="w-full lg:hidden" />
+
+                <div className="lg:mx-8 my-8">
+                  <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">Aces4 Tracking Agent System</h2>
+                  <p className="md:text-xl lg:text-2xl my-8">Create a tracking software for all client's user/employee. To monitor computer and laptop activity in real time. </p>
+                  <h2 className="font-bold mb-2">Stacks Use: </h2>
+
+                  <div className="flex flex-col md:flex-row md:gap-8">
+                    <div className="flex flex-col gap-2">
+                      <h3 className="text-cyan-400 font-bold">TAILWIND</h3>
+                      <h3 className="text-cyan-400 font-bold">REACT JS</h3>
+                      <h3 className="text-cyan-400 font-bold">REDIS</h3>
+                      <h3 className="text-cyan-400 font-bold">PYTHON</h3>
+                      <h3 className="text-cyan-400 font-bold">DJANGO</h3>
+                      <h3 className="text-cyan-400 font-bold">MSSQL</h3>
+                    </div>
+
+                    <div className="flex flex-col gap-2">
+                      <h3 className="text-cyan-400 font-bold">LARAVEL</h3>
+                      <h3 className="text-cyan-400 font-bold">MYSQL</h3>
+                    </div>
+                  </div>
+                  <button className="bg-cyan-400 hover:bg-cyan-500 hover:shadow-md p-4 font-bold text-white my-8"><a href="https://aces4trackingagent.online/">VIEW HERE</a></button>
+                </div>
+                <img src={freelance3} className="hidden lg:block lg:w-1/4" />
+                <img src={freelance2} className="hidden lg:block lg:w-1/4" />
+              </div>
+            </div>
+          </div>
 
           <div className=" bg-white flex flex-col lg:flex-row mt-8">
 
@@ -159,8 +195,9 @@ const Projects = () => {
           </div>
 
           {/* covid tracker */}
-
-          <div className=" bg-white flex flex-col lg:flex-row mt-8">
+          
+          
+{/*           <div className=" bg-white flex flex-col lg:flex-row mt-8">
 
             <div className="p-2 flex flex-col lg:flex-row">
               <div className="flex flex-col lg:flex-row w-full">
@@ -189,7 +226,7 @@ const Projects = () => {
               </div>
 
             </div>
-          </div>
+          </div> */}
 
         </div>
 
