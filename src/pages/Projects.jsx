@@ -42,7 +42,7 @@ const Projects = () => {
 
                 <div className="lg:mx-8 my-8">
                   <h2 className="text-xl lg:text-4xl font-bold text-cyan-400">Aces4 Tracking Agent System</h2>
-                  <p className="md:text-xl lg:text-2xl my-8">Create a tracking software for all client's user/employee. To monitor computer and laptop activity in real time. </p>
+                  <p className="md:text-xl lg:text-2xl my-8">Create a tracking software for all client's user/employee that monitor computer and laptop activity in real time. </p>
                   <h2 className="font-bold mb-2">Stacks Use: </h2>
 
                   <div className="flex flex-col md:flex-row md:gap-8">
